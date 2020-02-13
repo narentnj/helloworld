@@ -56,7 +56,7 @@
 						<image>openjdk@sha256:c63b8f23bde39cbafa57b960c5f1da70f215b4074bc3a1f9a9a11803dcad270c</image> 
 					</from>
 					<to>
-					  <image>narendra83/sample</image>
+					  <image>narendra83/world</image>
 					  <auth>
 						<username>${hub.user}</username>
 						<password>${hub.pass}</password>
