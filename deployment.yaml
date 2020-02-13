@@ -27,7 +27,7 @@ spec:
     spec:  
       containers:  
         - name: hello-app  
-          image: 100.67.93.140:8081/docker-local/web-image:1
+          image: narendra83/sample
           imagePullPolicy: IfNotPresent
           ports:  
             - containerPort: 8080
