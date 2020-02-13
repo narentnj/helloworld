@@ -48,6 +48,33 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<configuration>
+					<from>
+						<image>openjdk@sha256:c63b8f23bde39cbafa57b960c5f1da70f215b4074bc3a1f9a9a11803dcad270c</image> 
+					</from>
+					<to>
+					  <image>100.67.93.140:8081/docker-local/web-image</image>
+					  <auth>
+						<username>admin</username>
+						<password>P@ssw0rd</password>
+					  </auth>
+					  <tags>
+						<tag>1</tag>
+					  </tags>
+					</to>
+				</configuration>
+				<executions>
+				  <execution>
+					<phase>package</phase>
+					<goals>
+					  <goal>build</goal>
+					</goals>
+				  </execution>
+				</executions>
+			  </plugin>
 		</plugins>
 	</build>
 
