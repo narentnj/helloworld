@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.sify.cmp</groupId>
 	<artifactId>spring-thymleaf</artifactId>
-	<version>1.0.1-RELEASE</version>
+	<version>1.0.2-RELEASE</version>
 	<name>spring-thymleaf</name>
 	<description>Demo project for Spring Boot</description>
 
